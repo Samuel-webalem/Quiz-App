@@ -1,0 +1,51 @@
+#body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, rgb(146, 210, 101),rgb(35, 65, 43));
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    margin-top: 30%;
+    border: solid rgba(96, 92, 92, 0.879);
+    width: 700px;
+    background: linear-gradient(to left, rgb(160, 204, 84),rgb(82, 218, 211));
+    text-align: center;
+}
+
+button{
+    width: 500px;
+    border: none;
+    margin: 10px;
+    height: 30px;
+}
+button{
+    background: linear-gradient(to right, rgb(149, 223, 21), rgb(28, 237, 226));
+    text-align: left;
+}
+#next,#start{
+    background: linear-gradient(to right, rgb(108, 158, 21), rgb(12, 138, 132));
+    text-align: center;
+}
+.hide-next{
+   display: none;
+}
+.hide{
+    display: none;
+}
+.hide-start{
+    display: none;
+}
+
+button:hover{
+    background: linear-gradient(to left, rgb(149, 223, 21), rgb(28, 237, 226));
+}
+
+
+#wrong {
+    background: red;
+}
+#write {
+    background: green;
+}
